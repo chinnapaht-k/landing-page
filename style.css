@@ -1,6 +1,47 @@
+/*To do : Fix the top content to be center and styling the center and two content*/
 body {
     margin:0;
     font-family:'Roboto', sans-serif;
+}
+
+.center-content {
+    background: white;
+}
+
+
+.center-content{
+    display : flex;
+    flex-direction: column; 
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display:flex;
+    gap : 30px;
+}
+
+.box img {
+    width:100px;
+    height:auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.info-head{
+    font-size : 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 30px;
 }
 
 .maintext{
@@ -11,6 +52,7 @@ body {
 
 .top-content {
     display : flex;
+    justify-content: space-between;
     margin-bottom : 50px;
 }
 
