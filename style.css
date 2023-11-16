@@ -11,12 +11,13 @@ body {
 
 .top-content {
     display : flex;
+    margin-bottom : 50px;
 }
 
 .left {
     display : flex;
     flex-direction: column;
-    gap : 10px;
+    gap : 13px;
 }
 
 
