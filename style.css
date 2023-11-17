@@ -1,8 +1,9 @@
-/*To do : Fix the top content to be center and styling the center and two content*/
+/*To do : Adding the style tp match the picture in the TOP*/
 body {
     margin:0;
     font-family:'Roboto', sans-serif;
 }
+
 
 .center-content {
     background: white;
@@ -10,6 +11,56 @@ body {
 
 .two {
     padding : 3px 250px; 
+    margin-bottom: 50px;
+}
+
+.three {
+    background : #E5E7EB;
+    padding : 100px 250px; 
+}
+
+.quote {
+    color:#1F2937;
+    font-size:36px;
+    font-style:italic;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    display:flex;
+    font-weight:bold;
+    justify-content: flex-end;
+}
+
+.four {
+    padding : 100px;
+    display : flex;
+    justify-content: space-between;
+    background:#3882F6;
+    margin: 100px ;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    
+}
+
+.action .maintext {
+    font-weight : 800;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.action .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .center-content{
@@ -58,6 +109,8 @@ body {
     justify-content: space-between;
     margin-bottom : 50px;
     gap : 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .left {
@@ -90,6 +143,7 @@ button {
     background: #1f2937;
     padding : 3px 250px; 
     margin-bottom: 30px;
+ 
 }
 
 ul {
