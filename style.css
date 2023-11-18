@@ -35,22 +35,26 @@ body {
 }
 
 .four {
-    padding : 100px;
+    padding : 50px;
     display : flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     background:#3882F6;
-    margin: 100px ;
+    margin: 50px ;
+    border-radius: 30px;
 }
 
 footer {
     display:flex;
     justify-content: center;
     align-items: center;
+    background: #1F2937;
+    color : #E5E7EB;
+    font-size:18px;
+    padding : 3px 250px;
+    font-family:'Roboto', sans-serif;
 }
 
-.action {
-    
-}
 
 .action .maintext {
     font-weight : 800;
@@ -76,6 +80,8 @@ footer {
     gap : 30px;
 }
 
+
+
 .box img {
     width:100px;
     height:auto;
@@ -86,6 +92,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:200px;
+    height:auto;
 }
 
 
@@ -133,10 +141,23 @@ img {
     
 }
 
+
+
 button {
     background : #3882F6;
     font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    padding : 5px;  
+
 }
+
+#button-white {
+    border: 0.1rem solid white;
+}
+
+
+
 
 
 .one {
